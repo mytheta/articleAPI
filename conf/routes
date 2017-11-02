@@ -9,6 +9,12 @@ module:testrunner
 
 GET     /                                       App.Index
 
+GET     /api/articles                           ArticleApi.GetArticles
+GET     /api/article/:id                        ArticleApi.GetArticle
+POST    /api/article/create                     ArticleApi.PostArticle
+PUT     /api/article/rewrite/:id                ArticleApi.PutArticle
+DELETE  /api/article/delete/:id                 ArticleApi.DeleteArticle
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
