@@ -44,5 +44,5 @@ The directory structure of a generated Revel application:
 
 ## Start APP
 ```
-revel new sample
+$ revel new sample
 ```
